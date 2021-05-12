@@ -1,6 +1,5 @@
 from src.common.database import Database
 from src.models.blog import Blog
-from src.models.post import Post
 
 from flask import Flask, render_template, request, make_response, url_for, redirect
 
